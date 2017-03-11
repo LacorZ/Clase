@@ -14,13 +14,13 @@ public class pruebajijij {
 		LinkedList<Persona> ll = new LinkedList<>();
 		double contador = 0;
 		ll.addLast(new Persona());
-		/*for(; contador < 1_000_000_000d;)
+		for(; contador < 1_000_000_000d;)
 		{
 
 			ll.add(new Persona());
 			if(contador%2==0)ll.removeLast();
 			contador++;
-		}*/
+		
 		double tiempoFin = System.currentTimeMillis();
 		System.out.println((tiempoFin-tiempoInicio)/1000+" segundos");
 		
