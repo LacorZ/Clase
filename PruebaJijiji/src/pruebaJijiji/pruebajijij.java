@@ -14,7 +14,7 @@ public class pruebajijij {
 		LinkedList<Persona> ll = new LinkedList<>();
 		int contador = 0;
 		ll.addLast(new Persona());
-		for(Iterator<Persona> it = ll.iterator() ; contador < 10_000_000;)
+		for(; contador < 10_000_000;)
 		{
 
 			ll.add(new Persona());
@@ -31,7 +31,7 @@ public class pruebajijij {
 		ArrayList<Persona> ll2 = new ArrayList<>();
 		contador = 0;
 		ll2.add(new Persona());
-		for(Iterator<Persona> it = ll2.iterator() ; contador < 10_000_000;)
+		for(; contador < 10_000_000;)
 		{
 
 			ll2.add(new Persona());
@@ -49,7 +49,7 @@ public class pruebajijij {
 		Vector<Persona> ll3 = new Vector<>();
 		 contador = 0;
 		ll3.add(new Persona());
-		for(Iterator<Persona> it = ll.iterator() ; contador < 10_000_000;)
+		for(; contador < 10_000_000;)
 		{
 			
 			ll3.add(new Persona());
